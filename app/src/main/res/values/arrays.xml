@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 发现页面 -->
+    <string-array name="explore_title_array">
+        <item>推荐博文</item>
+        <item>热门博文</item>
+        <item>最新博文</item>
+    </string-array>
+
+    <!-- 个人页面 -->
+    <string-array name="myself_title_array">
+        <item>我的博客</item>
+        <item>我的收藏</item>
+        <item>我的评论</item>
+    </string-array>
+
+    <!-- 查看项目页面 -->
+    <string-array name="project_title_array">
+        <item>简介</item>
+        <item>提交</item>
+        <item>代码</item>
+        <item>问题</item>
+    </string-array>
+
+    <!-- 用户信息页面 -->
+    <string-array name="userinfo_title_array">
+        <item>最近动态</item>
+        <item>项目</item>
+        <item>Star</item>
+        <item>Watch</item>
+    </string-array>
+
+    <!-- 系统通知title -->
+    <string-array name="notification_title_array">
+        <item>未读通知</item>
+        <item>已读通知</item>
+    </string-array>
+
+</resources>

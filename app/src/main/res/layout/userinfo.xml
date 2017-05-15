@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <include
+        layout="@layout/divider_userinfo"/>
+    <include
+        layout="@layout/changeavator"/>
+    <include
+        layout="@layout/divider_userinfo"/>
+    <include
+        layout="@layout/changeusername"/>
+    <include
+        layout="@layout/divider_userinfo"/>
+    <include
+        layout="@layout/changehobby"/>
+    <include
+        layout="@layout/divider_userinfo"/>
+    <include
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        layout="@layout/changesignature" />
+    <include
+        layout="@layout/divider_userinfo"/>
+    <Button
+        android:id="@+id/signout"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginTop="40dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="#ff0000"
+        android:text="退出登录"
+        android:textColor="#000000"/>
+</LinearLayout>

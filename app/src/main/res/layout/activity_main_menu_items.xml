@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/meun_item_firstpage"
+        style="@style/MenuItemLayoutStyle">
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:contentDescription="@string/img_description"
+            android:background="@drawable/menu_icon_explore"/>
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="发现" />
+    </LinearLayout>
+    <include layout="@layout/horizontal_divider_view" />
+    <LinearLayout
+        android:id="@+id/meun_item_myblog"
+        style="@style/MenuItemLayoutStyle">
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:contentDescription="@string/img_description"
+            android:background="@drawable/menu_icon_my"
+            />
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="我的" />
+    </LinearLayout>
+    <include layout="@layout/horizontal_divider_view" />
+    <LinearLayout
+        android:id="@+id/meun_item_set"
+        style="@style/MenuItemLayoutStyle">
+        <ImageView
+            style="@style/MenuItemImageViewStyle"
+            android:contentDescription="@string/img_description"
+            android:background="@drawable/menu_icon_set"/>
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="设置" />
+    </LinearLayout>
+    <include layout="@layout/horizontal_divider_view" />
+</LinearLayout>
